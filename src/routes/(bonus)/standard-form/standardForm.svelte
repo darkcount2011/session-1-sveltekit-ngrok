@@ -1,11 +1,12 @@
 <script>
+  import { enhance } from "$app/forms";
 </script>
 
 <div class="grid grid-flow-row place-items-center">
   <!-- This form needs an action to the relevant action in the page server-->
   <h1>Standard Form</h1>
   <p>This is a standard form.</p>
-  <form>
+  <form method="POST" action="?/standardFormHandler" use:enhance>
     <label class="label" for="fullName">Full Name</label>
     <input class="input" type="text" id="fullName" name="fullName" />
 
