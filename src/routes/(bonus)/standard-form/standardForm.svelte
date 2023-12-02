@@ -1,14 +1,20 @@
 <script>
 </script>
 
-<h1>Standard Form</h1>
-<p>This is a standard form.</p>
-<form>
-  <label for="fullName">Full Name</label>
-  <input type="text" id="fullName" name="fullName" />
+<div class="grid grid-flow-row place-items-center">
+  <!-- This form needs an action to the relevant action in the page server-->
+  <h1>Standard Form</h1>
+  <p>This is a standard form.</p>
+  <form>
+    <label class="label" for="fullName">Full Name</label>
+    <input class="input" type="text" id="fullName" name="fullName" />
 
-  <label for="email">Email</label>
-  <input type="email" id="email" name="email" />
+    <label for="email">Email</label>
+    <input class="input" type="email" id="email" name="email" />
 
-  <button type="submit">Submit</button>
-</form>
+    <button class="btn variant-filled-primary mt-5" type="submit">Submit</button
+    >
+  </form>
+</div>
+
+<!-- Bonus: On succesful validation, bring up a positive toast, on error or negative validation, bring up a negative toast -->

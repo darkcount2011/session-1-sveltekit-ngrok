@@ -17,7 +17,7 @@
     </svelte:fragment>
     <svelte:fragment slot="default">
       <div class="flex gap-20">
-        <a href="forms"> Forms </a>
+        <a href="standard-form"> Forms </a>
         <a href="toaster"> Toaster </a>
       </div>
     </svelte:fragment>
